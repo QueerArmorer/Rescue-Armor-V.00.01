@@ -1,21 +1,30 @@
 # Rescue-Armor-V.00.01
-The first pieces of Rescue Armor, an automated infosec setup and security toolset. Very unfinished ATM.
 
-⠀⠀⠀⠀⠀⠀⠀⠀⣀⣤⣴⣶⣾⣿⣿⣿⣿⣷⣶⣦⣤⣀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⣠⣴⣿⠿⢛⣩⣥⣶⠶⠶⠶⠶⣶⣬⣍⡛⠿⣿⣦⣄⠀⠀⠀⠀⠀
-⠀⠀⠀⣠⣾⡿⢋⣥⠞⠋⠈⣿⣿⠀⠀⠀⠀⣿⣿⠉⠙⠳⣬⡛⢿⣷⣄⠀⠀⠀
-⠀⠀⣴⣿⠏⣴⠋⠀⠀⠀⠀⣿⣿⡆⠀⠀⢸⣿⣿⠀⠀⠀⠀⢹⣦⠻⣿⣦⠀⠀
-⠀⣼⣿⢃⣾⣿⣏⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⣹⣿⣷⡘⣿⣧⠀
-⢰⣿⠇⡾⠻⡅⠉⠛⢦⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣠⡴⠛⠉⢨⠟⣧⢸⣿⡆
-⣾⣿⢸⡇⠀⠹⣄⠀⠀⠈⢻⣿⡿⢿⣿⣿⡿⢿⣿⡟⠁⠀⠀⣰⠋⠀⢸⡆⣿⣷
-⣿⣿⢸⡇⠀⠀⣘⣆⠀⠀⠀⠻⣷⣦⠀⠀⣴⣾⠏⠀⠀⠀⣰⣃⠀⠀⢸⡇⣿⣿
-⢿⣿⢸⣷⣾⣿⡿⠟⢦⠀⠀⠀⠹⣿⣇⣸⣿⠏⠀⠀⠀⡼⠻⢿⣿⣷⣾⠇⣿⡟
-⠸⣿⡆⢿⡉⠁⠀⠀⠈⢧⠀⠀⠀⠙⣿⣿⠃⠀⠀⢀⡜⠁⠀⠀⠈⢙⡟⣸⣿⠇
-⠀⢻⣿⡌⢷⡀⠀⣠⣴⣿⣷⡀⠀⠀⢸⡇⠀⠀⢀⣾⣿⣦⣄⠀⢀⡾⣡⣿⡟⠀
-⠀⠀⠻⣿⣦⠻⣿⣿⠿⠋⠀⠳⡄⠀⢸⡇⠀⢠⠎⠀⠙⢿⣿⣿⢟⣴⣿⠟⠀⠀
-⠀⠀⠀⠙⢿⣷⣬⡛⢦⣄⡀⠀⠹⣄⣸⣇⣠⠏⠀⢀⣠⡴⢛⣵⣾⡿⠃⠀⠀⠀
-⠀⠀⠀⠀⠀⠉⠻⣿⣶⣬⣉⣛⠲⠿⠿⠿⠿⠖⣛⣩⣥⣾⣿⠟⠉⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠉⠛⠻⠿⠿⣿⣿⣿⣿⠿⠿⠟⠛⠉⠀⠀⠀⠀⠀⠀⠀⠀
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMWXOxdddk0NMMMMMMMMMWXNWNWNXNMMMMMMMMMMMM
+MMMMMMMMNOoc:'.;cld0NMMMWWXxclxkl,,;,:loOWMMMMMMMM
+MMMWWMWNOc:OXkol:::;;cxOo:,,d0x:..'....,:kKXWMMMMM
+MMMMWNx,..cKkcclcllol;. .,okookXNK0ko:..'lOkONMMMM
+MMMMXo'..:0kllc:;,.'kW0okXKxxkxodO0Oxdllc:lkdOMMMM
+MMMMx';''OXkocc:cloc;oONWWXkocldc,oXKdoolod0doXMMM
+MMMWo';..OWKd:';;..cocl00d;'cl:dKl.dO,.cxl,xd;OMMM
+MMMWo;:.,0XXo.dK0k.   ,k: .od.'dXk..'',.'xl',,kMMM
+MMMXxdo.'kdkO:::xXkd; cO' .x:.xWX0o,odokdkk. ,0MMM
+MMMNdo0:.xccOdldkdkO' ;O; .xc.xMKl;o0c .cd:  lNMMM
+MWWMKlok;cd,lc'c:.ok' .dd'.lx.,0Wd..;dkd, .'oXMMMM
+MMMMMKc:ddkd,cx0l.oNOd::xKc,O: cXO...'0Md.cNMMMMMM
+MMMMMMXo':xKOc:;,loxO:oxxNx'xo.dWx..,.xNc.kMMMMMMM
+MMMMMMMWO;.'colcc;.oo.'kNWk;xl.dXl ':'do'oNMMMMMMM
+MMMMMMMMMNk;...,,':0o..oNNkkKxcOO. cddl;xNMMMMMMMM
+MMMMMMWMMWWWXK0dcclkxlcdXWNKOxoc,.:Ox:l0WWMMWMMMMM
+MMMMMMMMMMMMMMWO' .;ccdKOoc:cldxloxooONMMMMMMMMMMM
+MMMMMMMMMMMMMMMWO;cKkc;:. ,ddllOWKOKWMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMNKN0:'..;;clcdKWMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMWx'.;xl..cONMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMWWWWMMNkc:lkXMWWMMMMMMMMMMMMMMMMMM
+WWWWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+NNNWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
 
 Welcome to Rescue Armor! The name is a geeky reference to the original intention of this project:
 
