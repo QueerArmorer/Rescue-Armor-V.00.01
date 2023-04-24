@@ -1,25 +1,11 @@
 # Rescue-Armor-V.00.01
 
-MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
-MMMMMMMMMWNXXNWMMMMMMMMMMMWMMMMMMMMMMMMM
-MMMMMMWKdl:;cdkKWMMMMNkdO0dllcdkKWMMMMMM
-MMMMMW0c:kkccll:cdkd:;cxx:'....'cOXNMMMM
-MMMWO:..dklc;:clo:.,ldxdxKX0xo:,,lkOXMMM
-MMMO;..dKdlc:::,lOOKNKkkxdlxOOkoccxdkWMM
-MMMd,''kNkc::;:lllO0klcldOo'xOcclcddoKMM
-MMWd:'.kNO;l0k,..'dc 'o::OK;.;,':o:':0MM
-MMNxd:.oxkdod00d''x; ;l.dW0lcooldOc ;XMM
-MMWkdx;clldldcod..dc ,o'lNx':dc;;,..kWWW
-MMMNxcldd::ox,:Od:col;lc.xK;.'xNl.cKWMWM
-MMMMWk:ckOolc:lkxodk0clo'd0,..cKc;KMMMMM
-MMMMMWKl',:c:;'oc.oXNddx:kx.';ll;kWMMMMM
-MMMMMWWW0occ:;l0o'lKNKK0oo,.oxcl0WWMMMMM
-MMMMMMMWMMMXl.,cccOOxdoooc;oxokNMMMMMMMM
-MMMMMMMMMMMMXl:ko:c' ,doo0X00NMMMMMMMMMM
-MMMMMMMMMMMMMWXXk,.'c:ccxNMMMMMMMMMMMMMM
-MMMMMMMMMMMMMMMMNk::cclxXWMMMMMMMMMMMMMM
-WWMMMMMMMMMMMMMMMMWK0XWWWWMMMMMMMMMMMMMM
-NNWWMMMMMMMMMMMMMMMMWMMMMMMMMMMMMMMMMMMM
+ , __                              ___,                              
+/|/  \                            /   |                              
+ |___/  _   ,   __          _    |    |   ,_    _  _  _    __   ,_   
+ | \   |/  / \_/    |   |  |/    |    |  /  |  / |/ |/ |  /  \_/  |  
+ |  \_/|__/ \/ \___/ \_/|_/|__/   \__/\_/   |_/  |  |  |_/\__/    |_/
+                                                                                  
 
 Welcome to Rescue Armor! The name is a geeky reference to the original intention of this project:
 
