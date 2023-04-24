@@ -1,0 +1,1 @@
+This folder is a collection of "modules," each a different python script running a different automated task to check various InfoSec vulnerabilities.
