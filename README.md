@@ -13,3 +13,5 @@ The "Rescue Armor" in Iron Man is a suit of armor made for Pepper Potts. In the 
 That's our goal here. We want to make a suite of tools that, when set up and implemented at the end, could be installed by someone with minimal information security experience and be used to spot bad actors.
 Our short term goal is thinking this is for someone who will be monitoring a team and setting up a team's computers for them, with teams and friendgroups being interchangable in this instance.
 Our long term goal is this should be plug and play on any Windows system and it just works, with variants for Mac and Linux coming.
+
+It is VERY MUCH still early and coming together. At the moment you have to run the USB set up first, then the setup python script which will run the entire folder of setup scripts. Then there's a python script to run the individual modules all as a group. EVENTUALLY this is going to be an executable but we are running down the problems as scripts first before compiling.
