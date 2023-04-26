@@ -7,16 +7,6 @@ print("Please choose your VPN provider:")
 print("1. ProtonVPN (Free)")
 print("2. NordVPN (Paid)")
 
-# Let them pick
-choice = input("Enter your choice (1 or 2): ")
-
-# Verify user input
-if choice == "1":
-    print("You have chosen ProtonVPN.")
-    print("What would you like to do?")
-    print("1. Install ProtonVPN")
-    print("2. Create a ProtonVPN account")
-
 # Get user input
 choice = input("Enter your choice (1 or 2): ")
 
