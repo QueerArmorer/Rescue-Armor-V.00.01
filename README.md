@@ -32,16 +32,10 @@ We are not reinventing the wheel. Antivirus software, password managers, VPNs, A
 
 Long term goals:
 
-Add additional modules based on development and feedback.
-
-Refine all modules.
-
-Create automated scripts for every piece of this so that none of it need to be dicussed
-
-Create scripts that include education about best practice for how to use Recue Armor
-
-Compile it as an executable
-
-Refine and test based on feedback
-
-Variant MacOS and Chrome, as well as a Linux Distro with Rescue Armor set up during install ... eventually.
+ - Add additional modules based on development and feedback.
+ - Refine all modules.
+ - Create automated scripts for every piece of this so that none of it need to be dicussed.
+ - Create scripts that include education about best practice for how to use Recue Armor.
+ - Compile it as an executable
+ - Refine and test based on feedback
+ - Variant MacOS and Chrome, as well as a Linux Distro with Rescue Armor set up during install ... eventually.
