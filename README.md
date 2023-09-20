@@ -1,18 +1,19 @@
 # Rescue-Armor-V.00.01
 
- , __                              ___,                              
-/|/  \                            /   |                              
- |___/  _   ,   __          _    |    |   ,_    _  _  _    __   ,_   
- | \   |/  / \_/    |   |  |/    |    |  /  |  / |/ |/ |  /  \_/  |  
- |  \_/|__/ \/ \___/ \_/|_/|__/   \__/\_/   |_/  |  |  |_/\__/    |_/
-                                                                                  
+RESCUE ARMOR
+A Sangriento Software Project
+
+Thank you to everyone who has helped and is helping create this, either through testing and checking code or by running Rescue armor, either on their own systems or on friends and family 
 
 Welcome to Rescue Armor! The name is a geeky reference to the original intention of this project:
 
 The "Rescue Armor" in Iron Man is a suit of armor made for Pepper Potts. In the MCU, the Rescue Armor set was specifically designed to have a lot of the fighting capabilities of the iron man suit but it was designed (and redesigned) so that someone who didn't know or do a lot of advanced technical things could operate it.
+
 That's our goal here. We want to make a suite of tools that, when set up and implemented at the end, could be installed by someone with minimal information security experience and be used to spot bad actors.
+
 Our short term goal is thinking this is for someone who will be monitoring a team and setting up a team's computers for them, with teams and friendgroups being interchangable in this instance.
-Our long term goal is this should be plug and play on any Windows system and it just works, with variants for Mac and Linux coming.
+
+Our long term goal is this should be plug and play on any Windows system and it just works, with variants coming.
 
 It is VERY MUCH still early and coming together. At the moment you have to run the USB set up first, then the setup python script which will run the entire folder of setup scripts. Then there's a python script to run the individual modules all as a group. EVENTUALLY this is going to be an executable but we are running down the problems as scripts first before compiling.
 
@@ -28,14 +29,23 @@ The DNS checker is fairly simple, it's the kind of thing you would do if checkin
 
 The Hard Drive check is a simple performance check that creates a 200mb text file of War and Peace repeating over and over, cuts and pastes it, and records the time the action took before deleting the war and peace file. It then does this as a test against itself over and over.
 
-We are not reinventing the wheel. Antivirus software, password managers, VPNs, ARP poison detection, and Root Kit Checkers exist, they're effective, we're going to automate installing and updating those rather than making new ones.
+The BadUSB check is a constant check list that has a list of known good USB devices and triggers a response if one not listed is added. This is in it's infancy and needs improvement as there should be methods for adding and removing devices triggered by simple scripts, eventually trigered by double clicking on shortcuts on the desktop.
+
+Twelve Bells is something that shouldn't be implemented yet, I want to create the big next step here (the AI director) before it really gets tested, it's an arm rather than a whole body, but eventually it'll be a way of making sure 
+
+We are not reinventing the wheel. Antivirus software, password managers, VPNs, ARP poison detection, Spectre and Meltdown detection, and Root Kit Checkers exist, they're effective, we're going to automate installing and updating those rather than making new ones.
 
 Long term goals:
 
+ - "The AI Director," a single unified script that can:
+     - Run in the background independently
+     - Run the modules at appropriate times
+     - Respond intelligently to the results of system checks
+     - Report problems, eventually back to both the owner of the computer and whoever sets up the Rescue Armor system
  - Add additional modules based on development and feedback.
  - Refine all modules.
  - Create automated scripts for every piece of this so that none of it need to be dicussed.
  - Create scripts that include education about best practice for how to use Recue Armor.
  - Compile it as an executable
  - Refine and test based on feedback
- - Variant MacOS and Chrome, as well as a Linux Distro with Rescue Armor set up during install ... eventually.
+ - MacOS variant to be the next priority, a ChromeOS variant a low priority.
